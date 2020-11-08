@@ -1,0 +1,65 @@
+
+.SB-title {
+  font-family: "Staatliches";
+  margin-top: 4rem;
+  font-size: 4.3rem;
+  font-weight: 900;
+  line-height: 0;
+}
+
+.SB-subtitle {
+  font-family: "Amatic SC";
+  margin-top: 1.3rem;
+  font-size: 2.6rem;
+  margin-bottom: 5%;
+}
+
+.beet-img {
+  text-align: center;
+  width: 200px;
+}
+
+.s-media {
+  margin-top: 5%;
+  padding: 3% 3%;
+}
+
+.body-card {
+  margin: 3% auto;
+  background-color: #fbe8e7;
+  padding: 3% none;
+  width: 40%;
+  border: solid black 10px;
+}
+
+.navbar {
+  background-color: #ffe0e0 !important;
+  font-family: "Work Sans";
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 1.2rem;
+}
+
+body {
+  background-color: #ffe0e0;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #105e62;
+}
+
+.nav-link:hover {
+  color: #105e62;
+}
+
+
+@media (max-width 1000px) {
+  .body-card {
+    width: 43%;
+  }
+}
